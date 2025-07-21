@@ -75,7 +75,7 @@ export default function SpaceGallery() {
           >
             <div className="aspect-[4/3] relative">
               <Image
-                src={image.src || "/placeholder.png"}
+                src={image.src || "/placeholder"}
                 alt={image.alt}
                 fill
                 className="object-cover transition-transform duration-500 group-hover:scale-110"
@@ -114,7 +114,7 @@ export default function SpaceGallery() {
           </button>
           <div className="max-w-4xl max-h-[80vh] relative">
             <Image
-              src={spaceImages[currentImageIndex].src || "/placeholder.png"}
+              src={spaceImages[currentImageIndex].src || "/placeholder"}
               alt={spaceImages[currentImageIndex].alt}
               width={1000}
               height={750}
